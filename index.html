@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Lover</title>
+    <link rel="shortcut icon" href="css/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <!-- Header Start -->
+    <header id="home">
+        <div id="navbar">
+            <img src="css/images/logo.png" alt="Food Lover Logo">
+            <nav role="navigation">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#CONTACT">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="content">
+            <h1>Welcome To <span class="primary-text">Food Lover</span> Restaurant</h1>
+            <p>Here you can find Most delicacies food in the world</p>
+            <a href="#contact" class="btn btn-primary">Book a Table</a>
+        </div>
+    </header>
+    <!-- Header End -->
+
+<main>
+
+    <!-- About Section Start -->
+    <section id="about">
+        <div class="container">
+            <div class="title">
+                <h2>The Food Lover history</h2>
+                <p>More than 25+ years of experience</p>
+            </div>
+
+            <div class="about-content">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur,
+                        quibusdam saepe natus numquam dolorum aliquam ducimus molestias tenetur?
+                    </p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat nesciunt
+                        aspernatur earum sequi consequatur, quasi iste quod nam esse adipisci.
+                    </p>
+
+                    <a href="#" class="btn btn-secondary">LEARN MORE</a>
+                </div>
+
+                <img src="css/images/about_img.png" alt="Pizza">
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Offers Section Start -->
+    <section id="offers">
+        <div class="container">
+            <div class="title">
+                <h2>Our Special Offers</h2>
+                <p>More than 25+ years of experience</p>
+            </div>
+
+            <div class="offers-items">
+                <div>
+                    <img src="css/images/offer1.png" alt="Quattro Pasta">
+                    <div>
+                        <h3>Quattro Pasta</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p><del>$ 55.00</del> <span class="primary-text">$18.00</span></p>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="css/images/offer2.png" alt="Vegertarian Pasta">
+                    <div>
+                        <h3>Vegertarian Pasta</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p><del>$ 55.00</del> <span class="primary-text">$18.00</span></p>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="css/images/offer3.png" alt="Gluten-Free Pasta">
+                    <div>
+                        <h3>Gluten-Free Pasta</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p><del>$ 55.00</del> <span class="primary-text">$18.00</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Offers Section End -->
+
+    <!-- Menu Section Start -->
+    <section id="menu">
+        <div class="container">
+            <div class="title">
+                <h2>Our Special Menu</h2>
+                <p>Order two and get third for free</p>
+            </div>
+
+            <div class="menu-items">
+
+
+                <div class="menu-items-left">
+
+           
+             <script >
+for(i=0; i<6; i++){
+document.write(`
+<div class="menu-item">
+<img src="${menuItems[i].image}" alt="">
+<div>
+<h3>${menuItems[i].name} <span>${menuItems[i].price}</span> </h3>
+<p>${menuItems[i].description}.</p>
+</div>
+</div>
+`)
+}
+</script>
+
+                </div>
+
+                <div class="menu-items-right">
+
+
+                  
+
+                 
+
+                  
+<script>
+for(i=6; i<12; i++){
+document.write(`
+<div class="menu-item">
+<img src="${menuItems[i].image}" alt="">
+<div>
+<h3>${menuItems[i].name} <span>${menuItems[i].price}</span> </h3>
+<p>${menuItems[i].description}.</p>
+</div>
+</div>
+`)
+}
+</script>
+                
+
+                </div>
+
+            </div>
+
+            <button class="btn btn-third">
+                <a href="#">EXPLORE FULL MENU</a>
+            </button>
+
+        </div>
+    </section>
+    <!-- Menu Section End -->
+
+    <!-- Daytime Section Start -->
+    <section id="daytime">
+        <div class="container">
+            <div class="daytime-items">
+
+                <div class="daytime-item">
+                    <img src="css/images/breckfastIcon.png" alt="Breakfast">
+                    <h3>Breakfast</h3>
+                    <p>8:00 am to 10:00 am</p>
+                </div>
+
+                <div class="daytime-item">
+                    <img src="css/images/lunchIcon.png" alt="Lunch">
+                    <h3>Lunch</h3>
+                    <p>4:00 pm to 7:00 pm</p>
+                </div>
+
+                <div class="daytime-item">
+                    <img src="css/images/dinnerIcon.png" alt="Dinner">
+                    <h3>Dinner</h3>
+                    <p>9:00 pm to 1:00 Am</p>
+                </div>
+
+                <div class="daytime-item">
+                    <img src="css/images/dessertIcon.png" alt="Dessert">
+                    <h3>Dessert</h3>
+                    <p>All day</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Daytime Section End -->
+
+    <!-- Gallery Section Start -->
+
+    <div class="Gallaryo" id="gallery">
+
+    <div class="titleo">
+        <h2>OUR FOOD Gallary</h2>
+    </div>
+        <div class="containera">
+            <div class="imgs"></div>
+        </div>
+
+      <div class="popup">
+        <img src="gallery1.jpeg"/>
+        <button class="left">&#x25C0;</button>
+        <button class="right">&#x25B6;</button>
+        <button class="close">&#x2716;</button>
+      </div>
+    
+  </div>
+
+    <!-- Gallery Section End -->
+
+    <!-- Contact Section Start -->
+        <div class="parentdd" id="CONTACT">
+
+           <div class="containeree-p2">
+            <div class="pc-cont1">
+                <h2>ADDRESS</h2>
+                <p style="color: rgba(0, 0, 0, 0.791);">📍 123 Main St, Anytown, USA</p>
+                <p style="color: rgba(0, 0, 0, 0.791);">📞 (123) 456-7890</p>
+                <p style="color: rgba(0, 0, 0, 0.791);">📧 info@restaurant.com</p>
+        
+                <h2>WORKING HOURS</h2>
+                <p style="color: rgba(0, 0, 0, 0.791);">8:00 am to 11:00 pm on Weekdays</p>
+                <p style="color: rgba(0, 0, 0, 0.791);">11:00 pm to 1:00 on weekends</p>
+                
+                <h2>FOLLOW US</h2>
+                <div class="pc-cont2">
+                    <img src="download.webp">
+                    <img src="OIP.webp">
+                </div>
+            </div>
+
+        </div>
+        
+        
+        
+        <div class="containeree" >
+            
+            <div class="p-conte" >
+          
+                
+                    <h1>CONTACT US</h1>
+              <form id="contactform">
+                  
+                  <div class="namee">
+                      <label for="na">Name</label>
+                      <input type="text" id="name" placeholder="Your Name">
+                      <p class="error" id="error1" style="text-align: center;"></p>
+                    </div>
+                    <div class="Emaile">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="example@email.com">
+                        <p class="error" id="error2" style="text-align: center;"></p>
+                        
+                    </div>
+                    <div class="numbere">
+                        <label for="numb">Subject</label>
+                        <input type="text" id="subject" placeholder="Subject">
+                        <p class="error" id="error3" style="text-align: center;"></p>
+                        
+                    </div>
+                    <div class="messagee">
+                        <label for="messa">MESSAGE</label>
+                        <input type="text" id="message" placeholder="Message">
+                        <p class="error" id="error4" style="text-align: center;"></p>
+                        
+                    </div>
+                    <button type="submit" >SEND MESSAGE</button>
+                    
+                </form>         
+            </div>
+            
+        </div>
+    </div>
+    <div class="footee">
+        <div class="p-footee">
+            <h4>Copyright © 2024 All rights reserved | designed by Mostafa waleed</h4>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
